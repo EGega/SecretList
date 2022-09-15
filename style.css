@@ -1,0 +1,103 @@
+* {
+ font-family: 'Cairo Play', cursive;
+ margin: 0;
+ padding: 0;
+ color: #fff;
+ box-sizing: border-box;
+}
+
+.container {
+  background-image: url('./img/vQ7U4N6.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-do {
+min-height: 60%;
+width: 60%;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.026);
+}
+
+.input-div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#input {
+  width: 70%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #000;
+  padding-left: 10px;
+}
+#ekle {
+  width: 10%;
+  height: 40px;
+  background: #000;
+  color: rgb(72, 255, 0);
+  margin-left: -1px;
+  border: none;
+  cursor: pointer;
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+}
+.ul-div {
+width: 90%;
+margin: auto;
+}
+
+.list {
+  width: calc(80% - 5px);
+  background-color: #000;
+  color: rgb(72, 255, 0);
+  margin: auto;
+  list-style: none;
+  margin-top: 10px;
+  height: 40px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list a {
+  text-decoration: none;
+  color: rgb(72, 255, 0);
+}
+
+
+.x {
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.xa {
+  z-index: 100;
+}
+ /* .x-none {
+  padding-left: 0;
+  display: none;
+} */
+
+.d-none {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  #ekle {
+    padding-right:10px;
+  }
+}
