@@ -21,7 +21,7 @@
 min-height: 60%;
 width: 60%;
 text-align: center;
-background-color: rgba(255, 255, 255, 0.026);
+background-color: rgba(255, 255, 255, 0.073);
 }
 
 .input-div {
@@ -76,6 +76,7 @@ margin: auto;
 .list a {
   text-decoration: none;
   color: rgb(72, 255, 0);
+  
 }
 
 
